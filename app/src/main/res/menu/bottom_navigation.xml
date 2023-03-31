@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Device Music"
+        android:id="@+id/deviceMusic"
+        android:background="@color/black"
+        android:icon="@drawable/music_bottom_off"/>
+
+    <item
+        android:title="Online Music"
+        android:id="@+id/onlineMusic"
+        android:icon="@drawable/online_music_off"/>
+
+</menu>

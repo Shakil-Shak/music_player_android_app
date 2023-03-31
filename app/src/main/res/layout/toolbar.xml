@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="wrap_content"
+    android:layout_height="?attr/actionBarSize"
+    android:backgroundTint="@color/white"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:text="Gaan Bajaw"
+        android:id="@+id/title"
+        android:textColor="#D8C200"
+        android:textSize="20sp"
+
+        />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:iconifiedByDefault="true"
+        android:queryBackground="@drawable/search"
+        android:queryHint="Search songs"
+        android:searchHintIcon="@drawable/search_hint"
+        android:searchIcon="@drawable/search_icon"
+        app:theme="@style/AppSearchView"
+
+        />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/sortBY"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/sort" />
+
+</RelativeLayout>
