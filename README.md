@@ -1,33 +1,21 @@
-# Flutter Multi Vendor Ecomerce Seller App
+# Music Player Android App
 
 ## About Project -
 
-<h4>This is Ecomerce app where seller can sell products</h2>
+<h4>This is Music app where people can listen there favourite song from mobile</h2>
 
 
 ##  Components Used :
 <h3>Language -</h4>
 <ul>
-  <li>Dart</li> 
+  <li>Java</li> 
 </ul>
 
-<h3>Database -</h2>
+<h3>IDE -</h4>
 <ul>
-  <li>Firebase</li> 
+  <li>Android Studio</li> 
 </ul>
 
-<h3>State Management -</h2>
-<ul>
-  <li>GetX</li> 
-</ul>
-
-<h3>Important Library Used -</h2>
-<ul>
-  <li>Velocity X</li> 
-  <li>Cupertino Icons</li>
-  <li>Badges</li>
-
-</ul>
 
 # Demo Video -
 
